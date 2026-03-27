@@ -4,7 +4,7 @@ from agents.query_agent import QueryAgent
 from agents.order_agent import OrderAgent
 from agents.recommendation_agent import RecommendationAgent
 from config import settings
-from utils import log_request, format_response
+from utils.utils import log_request, format_response
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 
